@@ -1,7 +1,7 @@
 const day = require('./day.js')
 
 const slowDay = function () {
-    console.log(`it's a bad day`)
+    console.log(`Today is tooooo slowwww`)
     i = 0
     const print = function () {
         if (i < day.length) {

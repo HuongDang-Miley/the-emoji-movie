@@ -5,7 +5,7 @@ let userInput = process.argv.slice(2)
 let userTime = 1 * userInput[0]
 
 const timeMaster = function () {
-    console.log(`it's a bad day`)
+    console.log(`Do you want your day to go fast or slow?`)
     i = 0
     const print = function () {
         if (i < day.length) {
