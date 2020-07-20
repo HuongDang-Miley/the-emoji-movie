@@ -5,6 +5,7 @@ const slowDay = function () {
     i = 0
     const print = function () {
         if (i < day.length) {
+            console.clear()
             console.log(day[i])
             i++
         } else {

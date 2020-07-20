@@ -5,6 +5,7 @@ const goodDay = function () {
     i = day.length - 1
     const print = function () {
         if (i >= 0) {
+            console.clear()
             console.log(day[i])
             i--
         } else {
